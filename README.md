@@ -1,4 +1,4 @@
-# Resume
+# Resume (Fully Responsive)
 
 
 -------------------Screenshots-------------------
