@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery-confirm.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery-confirm.js"></script>
+</head>
+<body class=" wow fadeIn">
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="data">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/rs-photo-v1.jpg" class="img-responsive">
+					<h2>Robert Smith</h2>
+					<p>Developer and Startup entrepreneur</p>
+					<hr>
+					<input type="" name="" class="form-control" placeholder="Search Here">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="mySidenav1" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+		<div class="data1">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="">
+						<li class="active"><a href="#about">About</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Portfolio</a> </li>
+						<li><a href="#">Experience</a></li>
+						<li><a href="#">References</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Calendar </a></li>
+						<li><a href="#">Contact </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-section"></div>
+		<header class="header">
+			<div class="row mr-0 want-to-fix">
+	            <div class="col-sm-3 col-xs-6 logo-section">                            
+	                <a class="logo" href="#"><span>RS</span>card</a>
+	            </div>
+
+	            <div class="col-sm-9 col-xs-6 my-navbar">
+	                <div class="">
+	                    <nav class="pull-right">
+							<ul class="">
+								<li class="active hidden-sm hidden-xs"><a href="#about">About</a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">Skills</a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">Portfolio</a> </li>
+								<li class="hidden-sm hidden-xs"><a href="#">Experience</a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">References</a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">Blog</a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">Calendar </a></li>
+								<li class="hidden-sm hidden-xs"><a href="#">Contact </a></li>
+								<li class="menu-btn-wrap" onclick="openNav1()"><a class="btn btn-primary menu-btn visible-sm visible-xs">Menu</a></li>
+								<li  onclick="openNav()"><a class="sidebar-btn">
+									<span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span> 
+								</a></li>
+							</ul>
+						</nav>
+
+	                    <!-- <button class="btn-mobile btn-mobile-nav">Menu</button> -->
+	                    
+	                </div>
+	            </div>
+	        </div>
+		</header>
+		<section class="profile-section wow fadeInUp">
+			<div class="container top-section" id="profile">
+				<div class="top-section-part1">
+					<div class="row">
+						<div class="col-sm-5 profile-img">
+							<img src="img/rs-photo-v1.jpg" class="img-responsive">
+						</div>
+						<div class="col-sm-7 profile-details">
+							<p class="badge hello">Hello</p>
+							<div class="row">
+								<div class="col-sm-12">
+									<h1 class="name">I'm <strong>Robert Smith</strong></h1>
+									<p class="job">Developer and businessman</p>
+									<hr>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label>AGE</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value">29</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label>ADDRESS</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value">24058, Belgium, Brussels, Liutte 27</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label>E-MAIL</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value">robertsmith@company.com</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label>PHONE</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value">+1 256 254 84 56</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label>FREELANCE</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value">till April 15, 2016</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-4">
+											<label class="badge green-badge">On Vacation</label>
+										</div>
+										<div class="col-sm-9 col-xs-8">
+											<p class="text-muted value"><span class="fa fa-calendar pr-5"></span> till March 25, 2016</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-section-part2">
+					<div class="row">
+						<div class="col-xs-offset-3 col-xs-1 mob-offset"><span class="fa fa-facebook social-icon"></span></div>
+						<div class="col-xs-1"><span class="fa fa-twitter social-icon"></span></div>
+						<div class="col-xs-1"><span class="fa fa-linkedin social-icon"></span></div>
+						<div class="col-xs-1"><span class="fa fa-google-plus social-icon"></span></div>
+						<div class="col-xs-1"><span class="fa fa-instagram social-icon"></span></div>
+						<div class="col-xs-1"><span class="fa fa-youtube social-icon"></span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container section-2 text-center">
+				<a href="#" class="btn btn-default btn-lg download-resume">Download Resume</a>
+				<p class="quote">Hello! I’m Robert Smith. Senior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript, SQL, and C. Stng background in project management and customer relations.Professional Skills</p>
+			</div>
+		</section>
+		<section class="wow fadeInUp">
+			<h2 class="text-center heading">Professional Skills</h2>
+			<div class="container skills">
+				<div class="row">
+					<div class="col-md-6 skills-sec-1">
+						<div class="mt-35">
+							<span>Wordpress</span><span class="pull-right">40%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+						    </div>
+						  </div>
+						</div>
+						<div class="mt-35">
+							<span>Drupal</span><span class="pull-right">80%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+						    </div>
+						  </div>
+						</div>
+						<div class="mt-35">
+							<span>PHP and MySQL</span><span class="pull-right">70%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6 skills-sec-2">
+						<div class="mt-35">
+							<span>JavaScript</span><span class="pull-right">60%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						    </div>
+						  </div>
+						</div>
+						<div class="mt-35">
+							<span>HTML & CSS</span><span class="pull-right">90%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+						    </div>
+						  </div>
+						</div>
+						<div class="mt-35">
+							<span>jQuery</span><span class="pull-right">40%</span>
+						  <div class="progress">
+						    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2 class="text-center heading">Portfolio</h2>
+			<div class="container portfolio">
+				<div class="col-sm-8 wow fadeInLeft">
+					<div class="img-wrapper">
+						<div class="img-container img-container1">
+							<div class="img-container1-content">
+								<div class="content-hover">
+									<h3>Street Photography</h3>
+									<p>PHOTOGRAPHY</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 wow fadeInRight">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="img-wrapper tab-margin">
+								<div class="img-container img-container2">
+									<div class="img-container2-content">
+										<div class="content-hover">
+											<h4>Suspension Bridge</h4>
+											<p>BRIDGE</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="img-wrapper mt-26">
+								<div class="img-container img-container3 ">
+									<div class="img-container3-content">
+										<div class="content-hover">
+											<h4>Rocky Mountains</h4>
+											<p>NATURE, PHOTOGRAPHY</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		
+	
+<script>
+	new WOW().init();
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 50) {
+            $('.want-to-fix').addClass('fix');
+        } else {
+            $('.want-to-fix').removeClass('fix');
+        }
+	});
+
+	 // if (browser.w >= 992) {
+  //       $(window).on('scroll', function () {
+  //           let menu = $('.want-to-fix');
+  //           let winOffset = win.pageYOffset;
+  //           if (winOffset >= 1) {
+  //               menu.addClass('fix')
+  //           } else {
+  //               menu.removeClass('fix')
+  //           }
+  //       });
+  //   }
+
+
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "340px";
+	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	    document.body.style.backgroundColor = "white";
+	}
+
+	function openNav1() {
+	    document.getElementById("mySidenav1").style.width = "340px";
+	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav1() {
+	    document.getElementById("mySidenav1").style.width = "0";
+	    document.body.style.backgroundColor = "white";
+	}
+</script>
+</body>
+</html>

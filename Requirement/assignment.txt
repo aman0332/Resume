@@ -1,0 +1,19 @@
+
+You have to convert the attached design template to HTML.
+    
+(Only the first 3 section of the design template is required, rest of the section are optional.)
+    
+Reference link- rscard.px-lab.com
+
+
+Please use proper classes and styling to give the same effect as in the image.
+
+The HTML page should be responsive over cross-browser devices(mobile and tab platform as well).
+You can use any framework of your choice, Bootstrap is preferable.
+Make the menu sticky on the scroll.
+
+On clicking the Hamburger menu icon on the extreme right of the navigation, 
+a  side menu should appear just like the reference website. 
+
+
+Please complete these tasks before 21/Sept/2017.
