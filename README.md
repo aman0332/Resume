@@ -1,4 +1,4 @@
-# Resume (Fully Responsive)
+# Portfolio (Fully Responsive)
 
 
 -------------------Screenshots-------------------
